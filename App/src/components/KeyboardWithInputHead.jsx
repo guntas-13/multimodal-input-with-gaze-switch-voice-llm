@@ -791,7 +791,8 @@ export default function KeyboardWithInput({
     try {
       console.log("Initializing TrackyMouse...");
 
-      window.TrackyMouse.dependenciesRoot = "/tracky-mouse";
+      window.TrackyMouse.dependenciesRoot =
+        "/multimodal-input-with-gaze-switch-voice-llm/tracky-mouse";
       console.log(
         "Dependencies root set:",
         window.TrackyMouse.dependenciesRoot
